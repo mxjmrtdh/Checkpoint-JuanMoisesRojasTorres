@@ -1,0 +1,11 @@
+git branch feature
+git checkout feature
+mkdir Hardare Software SeguridadInformatica
+touch Hardare/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+git add .
+git commit -m "commit 2 de JuanMoiseRojasTorres"
+git push origin feature
+git checkout feature
+mv main.js resumenHardare.txt
+mv index.html resumenSoftware.txt
+touch commandos.txt
